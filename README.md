@@ -22,8 +22,18 @@ E para listar toda a configuração, basta utilizar o comando:
 
 `git config --list`
 
-`git status`
+A partir de agora, devemos utilizar os comandos para manipulação dos arquivos. `git status` server para verificar o status do repositório atual. Sempre após uma adição ou modificação de arquivo, deve utilizar o seguinte comando:
+
 `git add -A`
+
+Em seguida deve realizar o commit dos arquivos, com o seguinte comando:
+
 `git commit -m "mensagem"`
+
+Caso deseje fazer ambos juntos, utilize o comando:
+
 `git commit -am "mensagem"`
+
+E ao final de todo processo, você pode vizualizar todas as modificação atráves do arquivo de log, com o seguite comando:
+
 `git log`
