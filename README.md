@@ -26,7 +26,7 @@ Verificar status do repositório:
 Adiciona as alteraçãos:  
 `git add -A` ou `git add .` 
 
-Comfirma as alterações:  
+Confirma as alterações:  
 `git commit -m "mensagem"`
 
 Caso deseje fazer ambos juntos, utilize o comando:  
@@ -39,11 +39,11 @@ Verificar os branchs existentes:
 `git branch`
 
 Criar um novo branch:  
-Obs.: como exemplo, o nome do brach irá ser "teste".  
+Obs.: como exemplo, o nome do branch irá ser "teste".  
 `git branch teste`
 
 Acessar outro branch:  
 `git checkout teste`
 
-Mostrar o que está sendo adicionando, modificado ou removido (antes de realizar o commit):  
+Mostrar o que está sendo adicionado, modificado ou removido (antes de realizar o commit):  
 `git diff`
