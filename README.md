@@ -34,3 +34,13 @@ Caso deseje fazer ambos juntos, utilize o comando:
 
 Visualizar todas modificações:  
 `git log`
+
+Verificar os branchs existentes:  
+`git branch`
+
+Criar um novo branch:  
+Obs.: como exemplo, o nome do brach irá ser "teste".  
+`git branch teste`
+
+Acessar outro branch:  
+`git checkout teste`
