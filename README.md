@@ -44,3 +44,6 @@ Obs.: como exemplo, o nome do brach irá ser "teste".
 
 Acessar outro branch:  
 `git checkout teste`
+
+Mostrar o que está sendo adicionando, modificado ou removido (antes de realizar o commit):  
+`git diff`
