@@ -76,3 +76,6 @@ Para remover um branch remoto:
 
 Para puxar as informações do repositório remoto:  
 `git pull origin nome_da_branch`
+
+Para clonar um repositório:  
+`git clone link_do_repositório`
