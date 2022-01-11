@@ -20,8 +20,14 @@ Lista toda a configuração:
 
 Para a manipulação dos arquivos.
 
+Para inicializar o repositório local:  
+`git init`
+
 Verificar status do repositório:  
 `git status` 
+
+Mostrar o que está sendo adicionado, modificado ou removido (antes de realizar o commit):  
+`git diff`
 
 Adiciona as alteraçãos:  
 `git add -A` ou `git add .` 
@@ -48,5 +54,8 @@ Acessar outro branch:
 Para remover um branch localmente:  
 `git branch -D teste`   
 
-Mostrar o que está sendo adicionado, modificado ou removido (antes de realizar o commit):  
-`git diff`
+Para adicionar um repositório remoto:  
+`git remote add origin link_do_repositorio`
+
+Para enviar arquivos para o repositório remoto:  
+`git push -u origin master`
