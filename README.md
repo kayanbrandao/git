@@ -49,7 +49,6 @@ Para reverter um commit:
 Para reverter um commit sem apagar:  
 `git revert --no-edit hash_do_commit`
 
-
 Verificar os branchs existentes:  
 `git branch`
 
@@ -61,7 +60,7 @@ Acessar outro branch:
 `git checkout teste`
 
 Para remover um branch localmente:  
-`git branch -D teste`   
+`git branch -D teste`
 
 Para adicionar um repositório remoto:  
 `git remote add origin link_do_repositorio`
@@ -71,3 +70,9 @@ Exibir os repositórios remotos:
 
 Para enviar arquivos para o repositório remoto:  
 `git push -u origin nome_do_branch`
+
+Para remover um branch remoto:  
+`git push origin :nome_do_branch`
+
+Para puxar as informações do repositório remoto:  
+`git pull origin nome_da_branch`
