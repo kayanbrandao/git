@@ -4,7 +4,9 @@ Aprendendo versionamento de código com a tecnologia GIT.
 
 Para fazer o download do GIT [clique aqui](https://git-scm.com/downloads).
 
-Comandos de configuração.  
+Para realizar todos os comandos abra o terminal.
+
+Comandos de configuração.
 
 Determina o usuário local:  
 `git config --global user.name "NOME USUARIO"`  
@@ -58,4 +60,4 @@ Para adicionar um repositório remoto:
 `git remote add origin link_do_repositorio`
 
 Para enviar arquivos para o repositório remoto:  
-`git push -u origin master`
+`git push -u origin nome_do_branch`
