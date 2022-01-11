@@ -40,14 +40,15 @@ Confirma as alterações:
 Caso deseje fazer ambos juntos, utilize o comando:  
 `git commit -am "mensagem"`
 
+Visualizar todos os commits:  
+`git log`
+
 Para reverter um commit:  
 `git revert commit`
 
 Para reverter um commit sem apagar:  
 `git revert --no-edit hash_do_commit`
 
-Visualizar todas modificações:  
-`git log`
 
 Verificar os branchs existentes:  
 `git branch`
