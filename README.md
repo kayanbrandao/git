@@ -40,6 +40,12 @@ Confirma as alterações:
 Caso deseje fazer ambos juntos, utilize o comando:  
 `git commit -am "mensagem"`
 
+Para reverter um commit:  
+`git revert commit`
+
+Para reverter um commit sem apagar:  
+`git revert --no-edit hash_do_commit`
+
 Visualizar todas modificações:  
 `git log`
 
@@ -58,6 +64,9 @@ Para remover um branch localmente:
 
 Para adicionar um repositório remoto:  
 `git remote add origin link_do_repositorio`
+
+Exibir os repositórios remotos:  
+`git remote -v`
 
 Para enviar arquivos para o repositório remoto:  
 `git push -u origin nome_do_branch`
