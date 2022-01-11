@@ -45,5 +45,8 @@ Obs.: como exemplo, o nome do branch irá ser "teste".
 Acessar outro branch:  
 `git checkout teste`
 
+Para remover um branch localmente:  
+`git branch -D teste`   
+
 Mostrar o que está sendo adicionado, modificado ou removido (antes de realizar o commit):  
 `git diff`
